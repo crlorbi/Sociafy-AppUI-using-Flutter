@@ -1,4 +1,4 @@
-// post_model.dart
+// post_model
 class Post {
   final String userName;
   final String userProfileImage;

@@ -106,6 +106,8 @@ class MyProfile extends StatelessWidget {
     // Add more posts as needed
   ];
 
+MyProfile({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

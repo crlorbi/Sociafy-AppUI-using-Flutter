@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CreateAccountPage extends StatelessWidget {
+  const CreateAccountPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -141,7 +143,7 @@ class CreateAccountPage extends StatelessWidget {
 }
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: CreateAccountPage(),
   ));
 }

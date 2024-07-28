@@ -4,6 +4,8 @@ import 'main.dart';
 import 'create_account.dart';
 
 class LoginPage extends StatelessWidget {
+  const LoginPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -87,7 +89,7 @@ class LoginPage extends StatelessWidget {
                 // For now, navigate to the main UI on button press
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => FacebookClone()),
+                  MaterialPageRoute(builder: (context) => const FacebookClone()),
                 );
               },
               style: ButtonStyle(
@@ -120,7 +122,7 @@ class LoginPage extends StatelessWidget {
                 onPressed: () {
                     Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => CreateAccountPage()),
+                    MaterialPageRoute(builder: (context) => const CreateAccountPage()),
                   );
                 },
                 child: const Text(

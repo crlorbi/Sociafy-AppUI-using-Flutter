@@ -42,6 +42,8 @@ class MessagesScreen extends StatelessWidget {
     // Add more messages as needed
   ];
 
+  MessagesScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

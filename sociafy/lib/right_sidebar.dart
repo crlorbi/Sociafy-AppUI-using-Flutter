@@ -38,6 +38,8 @@ class RightSidebar extends StatelessWidget {
     },
   ];
 
+  RightSidebar({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(

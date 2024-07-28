@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class FriendsList extends StatelessWidget {
   final List<Map<String, String>> friends;
 
-  const FriendsList({Key? key, required this.friends}) : super(key: key);
+  const FriendsList({super.key, required this.friends});
 
   @override
   Widget build(BuildContext context) {

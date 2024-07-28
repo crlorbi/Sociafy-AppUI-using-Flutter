@@ -3,6 +3,8 @@ import 'post_model.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeContent extends StatefulWidget {
+  const HomeContent({super.key});
+
   @override
   _HomeContentState createState() => _HomeContentState();
 }

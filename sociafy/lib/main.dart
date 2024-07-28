@@ -9,13 +9,15 @@ import 'notifications_content.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: LoginPage(), 
     debugShowCheckedModeBanner: false,
   ));
 }
 
 class FacebookClone extends StatefulWidget {
+  const FacebookClone({super.key});
+
   @override
   // ignore: library_private_types_in_public_api
   _FacebookCloneState createState() => _FacebookCloneState();
@@ -46,9 +48,9 @@ class _FacebookCloneState extends State<FacebookClone>
       body: TabBarView(
         controller: _tabController,
         children: [
-          HomeContent(), // Display HomeContent for Home tab
+          const HomeContent(), // Display HomeContent for Home tab
           VideosContent(), // Display VideosContent for Videos tab
-          FriendsReqContent(),
+          const FriendsReqContent(),
           NotificationContent(),
         ],
       ),

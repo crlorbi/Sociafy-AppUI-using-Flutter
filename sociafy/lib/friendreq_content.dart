@@ -14,6 +14,8 @@ class FriendRequest {
 }
 
 class FriendsReqContent extends StatefulWidget {
+  const FriendsReqContent({super.key});
+
   @override
   _FriendsReqContentState createState() => _FriendsReqContentState();
 }
@@ -83,7 +85,7 @@ class _FriendsReqContentState extends State<FriendsReqContent> {
                 const Divider(),
               ],
             );
-          }).toList(),
+          }),
         ],
       ),
     );

@@ -3,10 +3,12 @@ import 'package:video_player/video_player.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Video Posts'),
         ),
-        body: VideosContent(),
+        body: const VideosContent(),
       ),
     );
   }
@@ -45,6 +47,8 @@ class VideoPost {
 }
 
 class VideosContent extends StatefulWidget {
+  const VideosContent({super.key});
+
   @override
   _VideosContentState createState() => _VideosContentState();
 }

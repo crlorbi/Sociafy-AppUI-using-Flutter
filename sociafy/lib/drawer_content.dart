@@ -63,6 +63,8 @@ class DrawerContent extends StatelessWidget {
     },
   ];
 
+  DrawerContent({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -182,7 +184,7 @@ class DrawerContent extends StatelessWidget {
             onTap: () {
               Navigator.pushReplacement(
                 context,
-                MaterialPageRoute(builder: (context) => LoginPage()),
+                MaterialPageRoute(builder: (context) => const LoginPage()),
               );
             },
           ),

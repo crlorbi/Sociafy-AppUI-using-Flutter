@@ -5,7 +5,7 @@ class Header extends StatelessWidget implements PreferredSizeWidget {
   final GlobalKey<ScaffoldState>? scaffoldKey;
   final TabController tabController;
 
-  const Header({Key? key, this.scaffoldKey, required this.tabController}) : super(key: key);
+  const Header({super.key, this.scaffoldKey, required this.tabController});
 
   @override
   Widget build(BuildContext context) {
