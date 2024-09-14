@@ -49,7 +49,7 @@ class _FacebookCloneState extends State<FacebookClone>
         controller: _tabController,
         children: [
           const HomeContent(), // Display HomeContent for Home tab
-          VideosContent(), // Display VideosContent for Videos tab
+          const VideosContent(), // Display VideosContent for Videos tab
           const FriendsReqContent(),
           NotificationContent(),
         ],
