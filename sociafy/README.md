@@ -1,6 +1,6 @@
 # friendhub
 
-A new Flutter project.
+A flutter project, UI of Sociafy - Social Media application.
 
 ## Getting Started
 
